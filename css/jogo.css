@@ -1,0 +1,193 @@
+
+.botaoComprar{
+    padding: 0;
+    border: none;
+    background: rgba(0,0,0,0);
+}
+
+.desbloqueio{
+    width: 20rem;
+    text-align: center;
+    background: rgba(216, 27, 96, 0.6);
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.titulo-desbloqueio{
+    font-family: lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.subtitulo-desbloqueio{
+    font-family: lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cadeado{
+    margin-top: -10px;
+}
+
+.titulo-modal{
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.texto-modal{
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#botao-alerta-jogar{
+    font-family: lato;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #C2185B;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#botao-alerta-jogar:hover{
+    background-color: #ad1457;
+}
+
+#botao-alerta-pular{
+    font-family: lato;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#div-aviso-inicial{
+    animation: shaking 2s;
+    animation-iteration-count: infinite;
+}
+
+#aviso-inicial{
+    color: #181818;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom:2px;
+}
+
+.texto-aviso-inicial{
+    font-family: lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.destaque-jogar{
+    color: #C2185B;
+}
+
+.destaque-RapTap{
+    color: #C2185B;
+}
+
+.tam-Moeda{
+    width: 24px;
+}
+
+.destaque-moedas{
+    color:#F29F05;
+    font-weight: 700;
+}
+
+.blur{
+    filter: blur(20px);
+    transition: 1s;
+}
+
+#moedas{
+    font-family: silkscreen;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#Xmoedas{
+    font-family: silkscreen;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#div-moedas{
+    width: 120px;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+}
+
+#RapTap{
+    padding: 0;
+    border: none;
+    background: rgba(0,0,0,0);
+}
+
+#RapTap:active {
+    animation: shaking 0.3s;
+}
+
+.confetti{
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    user-select: none;
+}
+
+
+@keyframes shaking {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(8px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    75% {
+        transform: translateY(8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes tilt-shaking {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+
