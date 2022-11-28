@@ -1,38 +1,3 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
-.titulo-sobre{
-    font-family: Lato;
-    color: white;
-    font-size: 1.75rem;
-    font-weight: 800;
-}
-
-.texto{
-    font-family: Lato;
-    color: white;
-    font-size: 1.125rem;
-    text-align: justify;
-}
-
-#jamMusic{
-    font-family: Lato;
-    color: white;
-    font-size: 2.25rem;
-    font-weight: 800;
-}
-
-#nawatTitulo{
-    font-family: Lato;
-    color: white;
-    font-size: 3rem;
-    font-weight: 800;
-    margin-top: -50px;
-}
-
-.menu-botao{
-    font-family: Lato;
-    color: white;
-    font-size: 1.125rem;
-    font-weight: 700;
-}

@@ -8,5 +8,73 @@
 }
 
 .redes-sociais{
-    width: 20%;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.redes-sociais:hover{
+    border-radius: 100%;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.direitos{
+    font-family: Lato;
+    color: white;
+    font-weight: 300;
+}
+
+.titulo-sobre{
+    font-family: Lato;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.texto{
+    font-family: Lato;
+    color: white;
+    font-size: 1.125rem;
+    text-align: justify;
+}
+
+#jamMusic{
+    font-family: Lato;
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+#nawatTitulo{
+    font-family: Lato;
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: -50px;
+}
+
+.menu-botao{
+    font-family: Lato;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding-right: 35px;
+}
+
+#fotoNawat{
+    background-color: #04B2D9;
+    border: none;
+    color: white;
+    font-family: Lato;
+    font-size: 1.125rem;
+}
+
+.cargoNawat{
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.img-borda{
+    border-radius: 5px;
 }
