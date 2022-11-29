@@ -115,23 +115,25 @@
 
 #moedas{
     font-family: silkscreen;
-    font-size: 36px;
+    font-size: 32px;
     color: #FFFFFF;
     text-align: center;
+    margin-left: -4px;
 }
 
 #Xmoedas{
     font-family: silkscreen;
-    font-size: 36px;
+    font-size: 32px;
     color: #FFFFFF;
     text-align: center;
 }
 
 #div-moedas{
-    width: 120px;
+    width: 135px;
     position: fixed;
     top: 10px;
-    right: 30px;
+    right: 22px;
+    font-size: 24px;
 }
 
 #RapTap{

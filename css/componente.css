@@ -7,6 +7,26 @@
     width: 100%;
 }
 
+.menu-nav{
+    transition: 0.5s;
+    background-color: #121212;
+}
+
+.bg-transparency{
+    transition: 0.5s;
+    background-color: #00000000;
+}
+
+.baixarItch{
+    border: 2px solid #5c5c5c;
+    border-radius: 5px;
+}
+
+.baixarItch:hover{
+    border: 2px solid #ffffff;
+    transition: 0.5s;
+}
+
 .redes-sociais{
     width: 80px;
     border-radius: 100%;
@@ -22,6 +42,7 @@
     font-family: Lato;
     color: white;
     font-weight: 300;
+    font-size: 14px;
 }
 
 .titulo-sobre{
@@ -34,8 +55,8 @@
 .texto{
     font-family: Lato;
     color: white;
-    font-size: 1.125rem;
-    text-align: justify;
+    font-size: 1rem;
+    text-align: left;
 }
 
 #jamMusic{
@@ -81,4 +102,8 @@
 
 .negativa{
     margin-top: -160px;
+}
+
+.ver-mais{
+    width: 4rem;
 }

@@ -63,6 +63,7 @@ const hover = {
 
         //Remove o aviso inicial se o contador/moedas for igual à 10
        if(moedas == 10 ){
+           dispararAlertaDesbloqueio();
            document.getElementById("div-aviso-inicial").remove();
        }
    }
@@ -141,6 +142,13 @@ const hover = {
         $(document).ready(function () {
             $("#alertaSaldo").modal('show');
         });
+    }
+
+    //função que dispara o modal/alerta de Desbloqueio
+    function dispararAlertaDesbloqueio(){
+        $(document).ready(function () {
+            $("#alertaDesbloquear").modal('show');
+          });
     }
 
    // Funcção que remove todos os elementos "Jogáveis" do site
