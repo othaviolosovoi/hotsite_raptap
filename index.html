@@ -72,7 +72,7 @@
                   <h1 class="modal-title titulo-modal text-center mb-3 mt-1" id="avisoLabel">DESBLOQUEANDO SEÇÕES</h1>
                   <p class="text-center texto-modal mb-4">Agora que você possuí<span class="destaque-moedas">
                     10<span>
-                        <img class="img-fluid align-middle tam-Moeda" src="images/moeda.png" alt="">moedas</span>
+                        <img class="img-fluid align-middle tam-Moeda" src="images/moeda.png" alt="moeda">moedas</span>
                     </span>
                     é possível <span class="destaque-jogar fw-bold">desbloquear</span> as seções:</p>
                   <div class="d-flex justify-content-center mb-2">
@@ -101,7 +101,7 @@
                               id="botao-alerta-jogar"
                               type="button"
                               class="btn btn-danger botao-alerta"
-                              data-bs-dismiss="modal">NAWAT</button>
+                              data-bs-dismiss="modal">DEVS</button>
                         </a>
                       </div>
                     </div>
@@ -130,7 +130,7 @@
                   <h1 class="modal-title titulo-modal text-center mb-3 mt-1" id="saldoLabel">SALDO INSUFICIENTE</h1>
                   <p class="text-center texto-modal mb-4">São necessárias<span class="destaque-moedas">
                           10<span>
-                              <img class="img-fluid align-middle tam-Moeda" src="images/moeda.png" alt="">moedas</span>
+                              <img class="img-fluid align-middle tam-Moeda" src="images/moeda.png" alt="moeda">moedas</span>
                           </span>
                           para desbloquear esta seção.</p>
                   <div class="d-flex justify-content-center mb-2">
@@ -166,7 +166,7 @@
                       <h1 class="modal-title titulo-modal text-center mb-3 mt-1" id="parabensLabel">🎉PARABÉNS!🎉</h1>
                       <p class="text-center texto-modal mb-4">Você alcançou o número máximo de
                           <span>
-                              <img class="img-fluid align-middle tam-Moeda" src="images/moeda.png" alt="">
+                              <img class="img-fluid align-middle tam-Moeda" src="images/moeda.png" alt="moeda">
                                   <span class="destaque-moedas">
                                       moedas :D</span>
                               </p>
@@ -186,7 +186,7 @@
                   <div id="div-moedas">
                     <div class="row">
                       <div class="col-3 mx-2 py-1">
-                        <img src="/images/moeda.png" alt="">
+                        <img src="/images/moeda.png" alt="moeda">
                       </div>
                       <div class="col-3 py-1">
                         <h2 id="Xmoedas">x</h2>
@@ -211,7 +211,7 @@
                       <a class="nav-link" href="#baixar">Baixar</a>
                     </li>
                     <li class="nav-item menu-botao">
-                      <a class="nav-link" href="#nawat">Nawat</a>
+                      <a class="nav-link" href="#nawat">Devs</a>
                     </li>
                   </ul>
                 </div>
@@ -223,10 +223,10 @@
             <div class="position-absolute top-50 start-50 translate-middle negativa">
               <div id="div-aviso-inicial"> 
                 <div id="aviso-inicial">
-                    <h3 class="texto-aviso-inicial">Clique no <span class="destaque-RapTap">RAP TAP</span> para obter <span><img class="img-fluid align-middle" src="images/moeda.png" alt=""></span></h3>
+                    <h3 class="texto-aviso-inicial">Clique no <span class="destaque-RapTap">RAP TAP</span> para obter <span><img class="img-fluid align-middle" src="images/moeda.png" alt="moeda"></span></h3>
                 </div>
                 <div class="d-flex justify-content-center pt-2">
-                    <img src="images/seta.png" alt="">
+                    <img src="images/seta.png" alt="Seta direcional para baixo">
                 </div>
             </div>
             </div>
@@ -235,10 +235,10 @@
               id="RapTap"
               onclick="contadorMoedas(nomesIDs.rapTapId,hover.rapTap)"
               onmouseover="imageHoverPrincipal(nomesIDs.rapTapId,hover.rapTapHover)"
-              onmouseout="imageHoverPrincipal(nomesIDs.rapTapId,hover.rapTap)"><img id="img-RapTap" class="img-fluid" src="images/RapTap.png" alt=""></button>
+              onmouseout="imageHoverPrincipal(nomesIDs.rapTapId,hover.rapTap)"><img id="img-RapTap" class="img-fluid" src="images/RapTap.png" alt="Logo RapTap"></button>
             </div>
             <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
-              <a class="nav-link" href="#seta"><img src="/images/verMais.png" class="img-fluid ver-mais" alt=""></a>
+              <a class="nav-link" href="#seta"><img src="/images/verMais.png" class="img-fluid ver-mais" alt="Seta direcional para baixo"></a>
             </div>
           <!-- Fim itens Banner -->
           </div> 
@@ -247,11 +247,11 @@
     </div>
   </div>
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-      <div class="all-ads" id="seta">
+      <div class="all-ads">
         <!-- Início Sobre -->
         <div class="container-fluid position-relative" id="sobre">
           <div class="container blur" id="blur-sobre">
-            <div class="row">
+            <div class="row" id="seta">
               <div class="col-lg text-center p-5">
                 <h2 id="jamMusic">Jam with the music</h2>
               </div>
@@ -321,10 +321,10 @@
                       onmouseout="imageHover(nomesIDs.imgSobre,nomesIDs.imgBtnSobre,hover.cadeado,hover.comprar)"
                       onclick="comprar(nomesIDs.blurSobre,nomesIDs.botaoSobre,nomesIDs.imgSobre,nomesIDs.imgBtnSobre,nomesIDs.desbloqSobre)">
                       <div class="col-12">
-                        <img class="img-fluid cadeado" id="img-sobre" src="images/cadeado.png" alt="">
+                        <img class="img-fluid cadeado" id="img-sobre" src="images/cadeado.png" alt="Cadeado">
                       </div>
                       <div class="col-12 mb-4">
-                        <img id="btn-sobre" class="img-fluid" src="images/botaoComprar.png" alt="">
+                        <img id="btn-sobre" class="img-fluid" src="images/botaoComprar.png" alt="Botão para comprar seção">
                       </div>
                     </button>
                     </div>
@@ -349,7 +349,7 @@
               <div class="col-12 justify-content-center d-flex">
                 <div class="justify-content-center d-flex pb-5"> 
                   <a href="https://itch.io/" target="_blank" class="baixarItch">
-                    <img src="./images/Itch.ioLogo.png" class="img-fluid" alt="Itch.ioLogo" width="250px">
+                    <img src="./images/Itch.ioLogo.png" class="img-fluid" alt="Itch.io Logo" width="250px">
                   </a>
                 </div>
               </div>
@@ -372,10 +372,10 @@
                     onmouseout="imageHover(nomesIDs.imgBaixar,nomesIDs.imgBtnBaixar,hover.cadeado,hover.comprar)"
                     onclick="comprar(nomesIDs.blurBaixar,nomesIDs.botaoBaixar,nomesIDs.imgBaixar,nomesIDs.imgBtnBaixar,nomesIDs.desbloqBaixar)">
                     <div class="col-12">
-                      <img class="img-fluid cadeado" id="img-baixar" src="images/cadeado.png" alt="">
+                      <img class="img-fluid cadeado" id="img-baixar" src="images/cadeado.png" alt="Cadeado">
                     </div>
                     <div class="col-12 mb-4">
-                      <img id="btn-baixar" class="img-fluid" src="images/botaoComprar.png" alt="">
+                      <img id="btn-baixar" class="img-fluid" src="images/botaoComprar.png" alt="Botão para comprar seção">
                     </div>
                   </button>
                   </div>
@@ -392,7 +392,7 @@
         <div class="container px-5 blur" id="blur-nawat">
           <div class="row">
             <div class="col-12 justify-content-center d-flex">
-              <img src="./images/NawatLogo.png" class="img-fluid" alt="nawatLogo" width="300px">
+              <img src="./images/NawatLogo.png" class="img-fluid" alt="Logo da Nawat" width="300px">
           </div>
         </div>
   
@@ -414,7 +414,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/diogoCarvalho.jpeg" class="img-fluid img-borda">
+                          <img src="/images/diogoCarvalho.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Game Art</div>
                         <div class="card-text">Diogo Carvalho</div>
@@ -425,7 +425,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/karinaAmaral.jpeg" class="img-fluid img-borda">
+                          <img src="/images/karinaAmaral.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Game Art</div>
                         <div class="card-text">Karina Amaral</div>
@@ -436,7 +436,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/matheusHa.jpeg" class="img-fluid img-borda">
+                          <img src="/images/matheusHa.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Game Art</div>
                         <div class="card-text">Matheus Ha</div>
@@ -447,7 +447,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/eduardoLucas.jpeg" class="img-fluid img-borda">
+                          <img src="/images/eduardoLucas.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Programação</div>
                         <div class="card-text">Eduardo Lucas</div>
@@ -458,7 +458,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/flavioMurata.jpeg" class="img-fluid img-borda">
+                          <img src="/images/flavioMurata.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Programação</div>
                         <div class="card-text">Flavio Murata</div>
@@ -469,7 +469,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/cindyYoshita.jpeg" class="img-fluid img-borda">
+                          <img src="/images/cindyYoshita.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Programação</div>
                         <div class="card-text">Cindy Yoshita</div>
@@ -480,7 +480,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/kaivenSu.jpeg" class="img-fluid img-borda">
+                          <img src="/images/kaivenSu.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Programação</div>
                         <div class="card-text">Kaiven Su</div>
@@ -491,7 +491,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/thiagoAkio.jpeg" class="img-fluid img-borda">
+                          <img src="/images/thiagoAkio.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Gestor de projeto</div>
                         <div class="card-text">Thiago Akio</div>
@@ -502,7 +502,7 @@
                     <div class="col-md-3">
                       <div class="card mx-1" id="fotoNawat">
                         <div class="card-img">
-                          <img src="/images/victorCeresa.jpeg" class="img-fluid img-borda">
+                          <img src="/images/victorCeresa.jpeg" class="img-fluid img-borda shadow">
                         </div>
                         <div class="card-text cargoNawat pt-2">Sound design</div>
                         <div class="card-text">Victor Ceresa</div>
@@ -521,7 +521,7 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center pb-3">
               <div class="socialMedia text-center">
                 <a href="https://www.instagram.com/nawat.games/" target="_blank">
-                  <img src="/images/instagram.svg" alt="InstaLogo" class="redes-sociais img-fluid">
+                  <img src="/images/instagram.svg" alt="Logo do Instagram" class="redes-sociais img-fluid">
                 </a>
               </div>
             </div>
@@ -551,10 +551,10 @@
                         onmouseout="imageHover(nomesIDs.imgNawat,nomesIDs.imgBtnNawat,hover.cadeado,hover.comprar)"
                         onclick="comprar(nomesIDs.blurNawat,nomesIDs.botaoNawat,nomesIDs.imgNawat,nomesIDs.imgBtnNawat,nomesIDs.desbloqNawat)">
                         <div class="col-12">
-                          <img class="img-fluid cadeado" id="img-nawat" src="images/cadeado.png" alt="">
+                          <img class="img-fluid cadeado" id="img-nawat" src="images/cadeado.png" alt="Cadeado">
                         </div>
                         <div class="col-12 mb-4">
-                          <img id="btn-nawat" class="img-fluid" src="images/botaoComprar.png" alt="">
+                          <img id="btn-nawat" class="img-fluid" src="images/botaoComprar.png" alt="Botão para comprar seção">
                         </div>
                       </button>
                 </div>
