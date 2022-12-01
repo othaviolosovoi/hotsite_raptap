@@ -107,3 +107,10 @@
 .ver-mais{
     width: 4rem;
 }
+
+.ver-mais:hover{
+    transform: translateY(8px);
+    transition: 0.3s;
+}
+
+
